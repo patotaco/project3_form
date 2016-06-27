@@ -1,0 +1,172 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+button {
+	padding: 25px;
+	width: 100%;
+	background-color: turquoise;
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 15px;
+	border-style: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.box {
+
+}
+
+
+
+
+/* -------------- Input sourced from dWalsh---------------- */
+fieldset {
+	border: none;
+}
+
+
+input:required:invalid,
+input:focus:invalid {
+	border: 1px solid firebrick;
+}
+
+ input[placeholder]  {text-align: right;
+    color: rgba(0, 0, 0, 1);} 
+
+#state {
+	text-align: left;
+}
+#zip {
+	width: 155px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="textarea"]:focus,
+textarea:focus,
+select:focus {
+    
+    border-color: rgba(0, 255, 255, 1);
+    background: rgba(0, 255, 255, .1);
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="tel"]:hover,
+input[type="textarea"]:hover,
+textarea:hover,
+select:hover {
+    border-color: rgba(0, 255, 255, 1);
+}
+
+/* -------------- Radio buttons ---------------- */
+input[type=radio] {
+  display: none;
+}
+
+input[type=radio] + label {
+  display: block;
+  position: relative;
+  line-height: 1.5rem;
+}
+
+input[type=radio] + label:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid turquoise;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+input[type=radio]:checked + label:after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: turquoise;
+  left: 3px;
+  top: 9px;
+  border-radius: 50%;
+}
+
+/*-- CHECKBOXES --*/
+input[type=checkbox] {
+  display: none;
+ 
+}
+
+input[type=checkbox] + label {
+  display: block;
+  position: relative;
+  line-height: 1rem;
+}
+
+input[type=checkbox] + label:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #e8eeef;
+  border-radius: 5px;
+  background: rgba(255,255,255,0.1);
+   background-color: #e8eeef;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+
+input[type=checkbox]:checked + label:after {
+  content: '\2714';
+  position: absolute;
+  color: turquoise;
+  left: 3px;
+  top: 2px;
+}
+
+/*---========================================
+	Sourced from nPettit TTH form class
+==============================================*/
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+
+textarea,
+select {
+  background: rgba(0,255,255,0.1);
+  
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+
+  margin-bottom: 20px;
+}

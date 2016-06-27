@@ -1,0 +1,57 @@
+@media (min-width: 760px){
+
+.container {
+	margin: 0 auto;
+	width: 85%;
+}
+fieldset {
+	margin: 0 auto;
+	padding: 0;
+}
+
+label, input[type=text], input[type=email], input[type=tel], input[type=zip], .pull-down, textarea {
+    display: inline-block;
+}
+
+.contact_label {
+	width: 150px;
+}
+
+.label_newsletter {
+	padding-bottom: 12px;
+}
+
+input[type=text], label {
+  display: inline-block;
+  position: relative;
+  line-height: 1.5rem;}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin-right: 0;
+  margin-left: auto;
+  outline: 0;
+  padding: 15px 0;
+  width:460px;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 20px;
+
+}
+
+
+}

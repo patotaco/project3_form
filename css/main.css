@@ -1,0 +1,88 @@
+* { 
+ box-sizing: border-box;
+}
+
+
+/*---========================================
+	Base Element Styles
+==============================================*/
+body {
+
+	line-height: 1.6;
+	color: #333;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.container {
+	margin: 0 auto;
+	width: 85%;
+	
+
+
+}
+
+.label {
+	font-size: 1.25rem;
+	font-weight: bolder;
+}
+legend {
+	padding-bottom: 20px;
+}
+
+/* -------------- Header ---------------- */
+.main-header {
+	background-color: turquoise;
+	text-align: center;
+	color: #fff;
+	padding: 2rem 0;
+
+}
+
+h1 {margin: 0 auto;
+font-weight: 400;}
+
+.banner span{
+	color: lightgrey;
+	
+}
+
+.banner {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 2rem;
+	border-bottom: 6px solid black;
+}
+
+
+
+/* -------------- contact ---------------- */
+
+.contact,
+.newsletter {
+	margin-top: 5px;
+	padding: 2rem 0;
+	border-top: 2px solid black;
+}
+
+/* -------------- Newsletter ---------------- */
+
+
+
+/* -------------- Other ---------------- */
+
+
+/* -------------- Footer ---------------- */
+
+footer {
+	text-align: center;
+	margin: 25px auto;
+	color: #999;
+	font-size: .75rem;
+	font-style: oblique;
+}
+
+
+
+
+
